@@ -12,7 +12,9 @@ This module extends the channel:entries tag to allow nested access to the channe
 	
 		{exp:nested:prep_vars var_prefix="nested_"}
 			{exp:nested:entries entry_id="2" dynamic="off"}
-				{nested_title} {nested_entry_id}
+	
+				<h1>{nested_title} {nested_entry_id}</h1>
+	
 			{/exp:nested:entries}
 		{/exp:nested:prep_vars}
 	
