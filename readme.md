@@ -1,8 +1,10 @@
-# Nested
+# Nested Channel Entries
 
 Proof of concept more than anything else... 
 
-This module extends the channel:entries tag to allow nested access to the channel module with var_prefixes on nested variables.
+This (really simple) module extends the channel:entries tag to allow nested access to the channel module with var_prefixes on nested variables.
+
+Unsupported, use with some common sense aye.
 
 ## Example
 
